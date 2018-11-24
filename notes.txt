@@ -17,3 +17,6 @@ setx -m JAVA_HOME "C:\Program Files\Java\jdk-11.0.1"
 
 
 cerveny LF a HF, zluty HF, treninkovy vosk cerveny cca 10 vanicek a Toko Workbench 110 cm x 50 cm
+
+Errors description&solution
+https://github.com/leangen/graphql-spqr/wiki/Errors
