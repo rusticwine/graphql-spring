@@ -26,7 +26,7 @@ public class GraphQLController {
                 .withResolverBuilders(
                         //Resolve by annotations
                         new AnnotatedResolverBuilder())
-                .withOperationsFromSingleton(carService)
+                .withOperationsFromSingleton(carService, CarService.class)
                 .withValueMapperFactory(new JacksonValueMapperFactory())
                 .generate();
         graphQL = GraphQL.newGraphQL(schema).build();
