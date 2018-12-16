@@ -9,7 +9,7 @@ public class ApplicationWebConfig implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/graphiql").setViewName(
+        registry.addViewController("/static/graphiql").setViewName(
                 "forward:/graphiql/index.html");
     }
 }
